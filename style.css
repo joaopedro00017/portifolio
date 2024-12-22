@@ -50,19 +50,16 @@ span {
 
 /* Estilo do Cabeçario */
 
-header {
-    padding: 40px 4%;
-}
-
 header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: nowrap; 
 }
 
 header .logo img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     transition: .2s;
 }
 
@@ -100,6 +97,21 @@ header nav ul li {
 }
 
 .JP_Contato button:hover {
+    box-shadow: 0px 0px 8px #1b1b1b;
+    transform: scale(1.05);
+}
+
+header .navegadorPaginasDesktop {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .JP_Contato {
+    margin-left: 20px;
+}
+
+header .JP_Contato button:hover {
     box-shadow: 0px 0px 8px #1b1b1b;
     transform: scale(1.05);
 }
