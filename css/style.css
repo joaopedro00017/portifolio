@@ -7,6 +7,11 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-color:  #EEEEEE;
     height: 100vh;
@@ -102,7 +107,7 @@ header nav ul li {
 }
 
 header .navegadorPaginasDesktop {
-    display: flex;
+    display:flex;
     align-items: center;
     gap: 20px;
 }
@@ -256,10 +261,9 @@ section.especialidades .flex {
     box-shadow: 0 0 20px #1b1b1b6f;
 }
 
-.especialidades .especialidades-box i {
+.especialidades .especialidades-box i{
     font-size: 78px;
-    color: #22625f;
-
+    color: #000;
 }
 
 .especialidades .especialidades-box h3 {
@@ -301,7 +305,7 @@ section.sobre .flex {
 
 .sobre .txt-sobre p {
     margin: 20px 0;
-    text-align: justify;
+    text-align: left;
 }
 
 .JP-social button {
