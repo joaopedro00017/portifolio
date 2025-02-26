@@ -461,7 +461,7 @@ footer .line-footer p {
 }
 
 
-@media screen and (max-width:1020px) {
+@media screen and (max-width:720px) {
 
     /* Classes Gerais */
     .flex {
