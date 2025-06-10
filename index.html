@@ -389,7 +389,10 @@
       <section class="formulario" id="formulario">
         <div class="interface">
           <h2 class="title">ENTRE EM<span> CONTATO</span></h2>
-          <form action="php/contato.php" method="post">
+          <form
+            action="https://formsubmit.co/joaopedrodiasandrade8@gmail.com"
+            method="post"
+          >
             <input
               type="text"
               name="nome"
@@ -398,7 +401,7 @@
               required
             />
             <input
-              type="text"
+              type="email"
               name="email"
               id="email"
               placeholder="E-Mail"
@@ -414,8 +417,13 @@
               name="mensagem"
               id="mensagem"
               placeholder="Sua Mensagem"
-              required
             ></textarea>
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_next"
+              value="http://127.0.0.1:5500/html/tanks.html"
+            />
             <div class="jp-enviar">
               <input type="submit" value="ENVIAR" />
             </div>

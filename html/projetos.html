@@ -135,19 +135,49 @@
                 </div>
             </div>
             <section class="formulario" id="formulario">
-                <div class="interface">
-                    <h2 class="title">ENTRE EM<span> CONTATO</span></h2>
-                    <form action="../php/contato.php" method="post">
-                        <input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
-                        <input type="text" name="email" id="email" placeholder="E-Mail" required>
-                        <input type="text" name="telefone" id="telefone" placeholder="Telefone">
-                        <textarea name="mensagem" id="mensagem" placeholder="Sua Mensagem" required></textarea>
-                        <div class="jp-enviar">
-                            <input type="submit" value="ENVIAR">
-                        </div>
-                    </form>
-                </div>
-            </section>
+        <div class="interface">
+          <h2 class="title">ENTRE EM<span> CONTATO</span></h2>
+          <form
+            action="https://formsubmit.co/joaopedrodiasandrade8@gmail.com"
+            method="post"
+          >
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Nome Completo"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-Mail"
+              required
+            />
+            <input
+              type="text"
+              name="telefone"
+              id="telefone"
+              placeholder="Telefone"
+            />
+            <textarea
+              name="mensagem"
+              id="mensagem"
+              placeholder="Sua Mensagem"
+            ></textarea>
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              type="hidden"
+              name="_next"
+              value="http://127.0.0.1:5500/tanks.html"
+            />
+            <div class="jp-enviar">
+              <input type="submit" value="ENVIAR" />
+            </div>
+          </form>
+        </div>
+      </section>
         </main>
 
         <footer>
